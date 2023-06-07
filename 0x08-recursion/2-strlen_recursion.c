@@ -1,19 +1,16 @@
-#include main.h
-
 int _strlen_recursion(char* s)
+
 {
-    
-
- 
-
-    int string_length(char *string)
+    int a = 0;
+    if(*s)
     {
-        int string1_length = string_length(string1);
+        a++;
 
-        if (*string == '\0') return 0;
-        else return 1 + string_length(string + 1);
-        return (string);
+        a+=_strlen_recursion(s+1)
+
     }
-
+    else
+    {
+        return(a)
+    }
 }
-
