@@ -1,21 +1,17 @@
 #include "main.h"
 
-/*e are trying this*/
-
-int _strlen_recursion(char *s)
-
+int _strlen_recursion(char* s)
 {
-    int a = 0;
+    int longit = 0;
+        if (*s)
 
-    if(*s)
     {
-        a++;
+        longit++;
 
-        a += _strlen_recursion(s + 1);
-
+        longit += _strlen_recursion(s + 1);
     }
     else
-    {
-        return (a);
-    }
+
+    return (longit);
 }
+
