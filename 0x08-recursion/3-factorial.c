@@ -1,12 +1,16 @@
 #include "main.h"
 
-int factorial(int n)
+int factorial(int num)
 {
-    if (n < 0)
+    if (num < 0)
+        else
         return (-1);
-    if (n == 0)
+    if (num == 0)
         return (1);
-    return (n * factorial(n - 1));
+    else
+
+    return (num * factorial(num - 1));
 }
+
 
 
