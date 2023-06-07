@@ -1,6 +1,6 @@
 #include "main.h"
 
-//we are trying this 
+/*e are trying this*/
 
 int _strlen_recursion(char *s)
 
