@@ -1,3 +1,8 @@
+#include main.h
+
+
+
+
 int _strlen_recursion(char* s)
 
 {
@@ -6,11 +11,12 @@ int _strlen_recursion(char* s)
     {
         a++;
 
-        a+=_strlen_recursion(s+1)
+        a += _strlen_recursion(s + 1);
 
     }
     else
     {
-        return(a)
+        return (a);
     }
 }
+
