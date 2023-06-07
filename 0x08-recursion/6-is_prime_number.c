@@ -11,7 +11,7 @@ int is_prime_number(int num1)
     return (aprime(num1, num1 - 1));
 }
 
-int prime(int num1, int num2)
+9int aprime(int num1, int num2)
 {
     if (num1 == num2)
         return (1);
