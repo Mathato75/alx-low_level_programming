@@ -1,12 +1,12 @@
 #include main.h
 
+//we are trying this 
 
-
-
-int _strlen_recursion(char* s)
+int _strlen_recursion(char *s)
 
 {
     int a = 0;
+
     if(*s)
     {
         a++;
@@ -19,4 +19,5 @@ int _strlen_recursion(char* s)
         return (a);
     }
 }
+
 
