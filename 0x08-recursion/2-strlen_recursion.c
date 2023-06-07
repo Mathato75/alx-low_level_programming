@@ -18,7 +18,8 @@ int _strlen_recursion(char *s)
     else
     {
         return (a);
-  */int _strlen_recursion(char* s)
+  */
+int _strlen_recursion(char* s)
 {
     int longit = 0;
 
@@ -29,9 +30,9 @@ int _strlen_recursion(char *s)
 
         longit += _strlen_recursion(s + 1);
     }
-    else
-
+    
     return (longit);
 }
+
 
 
